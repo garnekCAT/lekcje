@@ -1,16 +1,19 @@
 h1{text-align: center;}
 h2{text-align: center;}
+h2{animation: color-change 5s infinite;}
+h2{border-bottom-style: dotted;border-color:red;}
+h3{font-size: 40px;}
 img{align-content: center;}
 img {
-  width: 60%;
-  height: 60%;
+  width: 40%;
+  height: 40%;
 }
 img {
   display: block;
   margin: auto;
 }
 h1 {
-  font-size: 55px;
+  font-size: 75px;
 }
 
 h2 {
@@ -18,5 +21,19 @@ h2 {
 }
 
 ul {
-  font-size: 30px;
+  font-size: 35px;
 }
+
+        @keyframes color-change {
+          0% {
+            color: black;
+          }
+
+          50% {
+            color: cyan;
+          }
+
+          100% {
+            color: black;
+          }
+        }
